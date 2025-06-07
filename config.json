@@ -1,0 +1,16 @@
+{
+    "target_ip": "127.0.0.1",
+    "http_port": 8080,
+    "dns_server": "8.8.8.8",
+    "test_domain": "example.com",
+    "syn_count": 500,
+    "udp_count": 1000,
+    "http_count": 200,
+    "icmp_count": 500,
+    "slowloris_conns": 50,
+    "max_threads": 100,
+    "monitoring_interval": 1,
+    "enable_logging": true,
+    "require_admin": true,
+    "ui_theme": "dark"
+}
